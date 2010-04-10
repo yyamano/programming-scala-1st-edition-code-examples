@@ -48,7 +48,7 @@ object Money {
   
   val scale = 4
   val jroundingMode = JRoundingMode.HALF_UP
-  val roundingMode  = BigDecimal.RoundingMode.ROUND_HALF_UP
+  val roundingMode  = BigDecimal.RoundingMode.HALF_UP
   val context = new JMathContext(scale, jroundingMode)
 }
 
